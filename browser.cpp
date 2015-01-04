@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     if ( argc > 1 ) {
         url = QUrl(argv[1]);
     } else {
-        url = QUrl("http://192.168.1.4/");
+        url = QUrl("http://127.0.0.1:8080/");
     }
 
     browser = new browserwindow(url);
